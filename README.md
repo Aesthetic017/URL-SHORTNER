@@ -7,7 +7,10 @@ The project not only allows users to shorten URLs but also integrates **authenti
 
 ### 🔐 Authentication & Security
 - **User Signup & Login**  
-  Users can create accounts and securely log in.  
+  Users can create accounts and securely log in.
+- **Access Control**:  
+  - Each user only sees the URLs they have generated.  
+  - No cross-user data leaks or exposure.  
 - **JWT-based Authentication**  
   When a user logs in, a **JWT token** is generated and stored in cookies.  
   - Protects against session hijacking.  
